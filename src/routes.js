@@ -12,7 +12,8 @@ function AppRoutes() {
           <Route path="/inicio" element={<Inicio />} />
           <Route path="/" element={<Inicio />} />
           <Route path="/sobremim" element={<SobreMim />} />
-          <Route path="*" element={<div>Não encontrei nada aqui...</div>} />
+          <Route path="*" element= {<div>O que você tá procurando?...</div>}/>
+         
       </Routes>
     </BrowserRouter>
   )
