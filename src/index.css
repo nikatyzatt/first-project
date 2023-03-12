@@ -6,11 +6,12 @@
 
 :root {
   --verde-agua: #088171;
-  --azul-escuro: #041833;
-  --azul-medio: #1875E8;
+  --rosa-claro: #c27a7a;
+  --vermelho: #d4272f;
   --cor-fonte-principal: #041833;
-  --cor-fonte-post: #444444;
+  --cor-fonte-post: #070202;
   --branco: #FFF;
+  --roxo-escuro: #380334;
   --fonte-principal: 'Raleway', sans-serif;
   --fonte-secundaria: 'Playfair Display', sans-serif;
 
