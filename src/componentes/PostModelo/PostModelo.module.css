@@ -5,15 +5,17 @@
 
 .fotoCapa,
 .titulo {
-    height: 320px;
+    height: 400px;
+    
 }
 
 .fotoCapa {
-    width: 100%;
+    width: 1800px;
+    height: 500px;
 
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.6;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     z-index: -1;
@@ -21,7 +23,7 @@
 
 .titulo {
     font-family: var(--fonte-secundaria);
-    padding: 0 1.5rem;
+    padding: 0 5.5rem;
     font-size: 3.5rem;
     display: flex;
     align-items: unsafe end;
@@ -42,7 +44,7 @@
 
     .fotoCapa,
     .titulo {
-        height: 104px;
+        height: 300px;
     }
 
     .titulo {

@@ -7,7 +7,6 @@ export default function SobreMim() {
     return (
         <PostModelo
             fotoCapa={fotoCapa}
-            titulo='The Favela is Here.'
         >
             <h3 className={styles.subtitulo}>
                 E aí, bão?

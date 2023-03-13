@@ -10,7 +10,8 @@ export default function Banner() {
                     Oi, galero!
                 </h1>
                 <p className={styles.paragrafo}>
-                    Bem vindos ao meu primeiro projetinho (Uhuuuuul)! Talvez eu tenha me empolgado e adicionado algumas coisinhas... Vou tentar deixar do meu jeitinho =) 
+                    Bem vindos ao meu primeiro projetinho (Uhuuuuul)! 
+                    Aqui tem alguns posts sobre mim e meus hobbies. Fique à vontade =) 
                 </p>
             </div>
             <div className={styles.imagens}>
