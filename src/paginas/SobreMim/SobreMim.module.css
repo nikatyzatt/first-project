@@ -6,8 +6,8 @@
 }
 
 .subtitulo {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-size: 4rem;
 }
 
 .paragrafo {
@@ -37,8 +37,8 @@
 
     .subtitulo {
         font-size: 1.5rem;
-        line-height: 2rem;
-        margin-bottom: 1.5rem;
+        line-height: 3rem;
+        margin-bottom: 3.5rem;
     }
 
     .paragrafo {

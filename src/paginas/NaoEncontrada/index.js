@@ -37,9 +37,6 @@ export default function NaoEncontrada() {
 
             </div>
 
-            <div className={styles.espacoEmBranco}>
-            </div>
-
         </>
 
     )

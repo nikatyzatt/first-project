@@ -1,4 +1,5 @@
 import PaginaPadrao from "componentes/PaginaPadrao";
+import PaginaPadraoHobbies from "componentes/PaginaPadraoHobbies";
 import Rodape from "componentes/Rodape";
 import ScrollToTop from "componentes/ScrollToTop";
 import NaoEncontrada from "paginas/NaoEncontrada";
@@ -21,10 +22,14 @@ function AppRoutes() {
             <Route path='inicio' element={<Inicio />} />
           </Route>
 
-        <Route path='posts/:id/*' element={<Post/>} />
-        <Route path="sobremim" element={<SobreMim />} />
-        <Route path="*" element= {<NaoEncontrada />} />
-       
+          <Route path='posts/:id/' element={<PaginaPadraoHobbies />}>
+            <Route index element={<Post />}/>
+          </Route>
+
+          <Route path='posts/:id/*' element={<Post/>} />
+          <Route path="sobremim" element={<SobreMim />} />
+          <Route path="*" element= {<NaoEncontrada />} /> 
+          
       </Routes>
 
       <Rodape />
