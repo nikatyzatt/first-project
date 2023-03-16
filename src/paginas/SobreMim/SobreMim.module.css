@@ -1,6 +1,6 @@
 .fotoSobreMim {
-    margin-bottom: .5rem;
-    margin-left: 1.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 2.5rem;
     width: 40vw;
     float: right;
 }
@@ -8,6 +8,7 @@
 .subtitulo {
     margin-bottom: 3rem;
     font-size: 4rem;
+    height: 100px;
 }
 
 .paragrafo {
@@ -21,12 +22,12 @@
     .fotoSobreMim {
         float: none;
         display: block;
-        margin: 0 auto 2rem;
+        margin: 0 auto 1rem;
         width: 70vw;
     }
 
     .paragrafo {
-        margin-bottom: 2rem;
+        margin-bottom: 0.75rem;
     }
 }
 
