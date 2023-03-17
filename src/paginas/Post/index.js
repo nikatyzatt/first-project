@@ -23,7 +23,7 @@ export default function Post(){
     const postsRecomendados = posts
         .filter((post) => post.id !== Number(parametros.id))
         .sort((a,b) => b.id - a.id)
-        .slice(0, 5);
+        .slice(0, 4);
 
     return (
         <Routes>
