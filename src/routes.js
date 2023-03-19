@@ -2,6 +2,7 @@ import PaginaPadrao from "componentes/PaginaPadrao";
 import PaginaPadraoHobbies from "componentes/PaginaPadraoHobbies";
 import Rodape from "componentes/Rodape";
 import ScrollToTop from "componentes/ScrollToTop";
+import Galeria from "paginas/Galeria";
 import NaoEncontrada from "paginas/NaoEncontrada";
 import Post from "paginas/Post";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -28,6 +29,8 @@ function AppRoutes() {
 
           <Route path='posts/:id/*' element={<Post/>} />
           <Route path="sobremim" element={<SobreMim />} />
+          <Route path="galeria" element={<Galeria />} />
+
           <Route path="*" element= {<NaoEncontrada />} /> 
           
       </Routes>

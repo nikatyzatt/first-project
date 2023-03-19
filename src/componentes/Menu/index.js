@@ -14,6 +14,9 @@ export default function Menu() {
                 <MenuLink to="/sobremim">
                     Sobre Mim
                 </MenuLink>
+                <MenuLink to='/galeria'>
+                    Galeria
+                </MenuLink>
             </nav>
         </header>
     )

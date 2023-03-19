@@ -30,7 +30,7 @@ export default function NaoEncontrada() {
                 </div>
 
                 <img
-                    className={styles.notfound}
+                    className={styles.notFound}
                     src={error404}
                     alt='Technical difficulties'
                 />
